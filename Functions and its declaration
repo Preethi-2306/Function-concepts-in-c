@@ -45,3 +45,41 @@ void printable(int n)//this is just formal parament the actual value comes form 
         printf("%d\n",i*n);
     }
 }
+
+//  TO PRINT AREA OF A CORCLE,SQUARE, RECTANGLE:-
+#include <stdio.h>
+
+float areasquare(float side);
+float areacircle(float radius);
+float arearectangle(float length,float breadth);
+
+int main() {
+    float side=4.4;
+    
+    float length=3.4;
+    float breadth=6.6;
+    
+    float radius=9.9;
+    printf("Area of a square:%.2f\n",areasquare(side));
+    
+    printf("Area of a circle:%.2f\n",areacircle(radius));
+
+    printf("Area of a rectangle:%.2f\n",arearectangle(length,breadth));
+
+    return 0;
+}
+float areasquare(float side){
+return side*side;
+}
+
+float areacircle(float radius){
+return 3.14*radius*radius;
+}
+
+float arearectangle(float length,float breadth){
+return length*breadth;
+}
+
+// SCOPE [ CONCEPTS OF GLOBAL AND LOCAL VARIABLE]:-
+
+
