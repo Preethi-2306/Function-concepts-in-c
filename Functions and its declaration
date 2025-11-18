@@ -80,6 +80,22 @@ float arearectangle(float length,float breadth){
 return length*breadth;
 }
 
-// SCOPE [ CONCEPTS OF GLOBAL AND LOCAL VARIABLE]:-
+// SCOPE [ CONCEPTS OF GLOBAL AND LOCAL VARIABLE]:-  Global = shared everywhere; Static = lives forever but seen only in limited places.
+Global Variable – Key Points
+->Declared outside all functions. 
+-> Accessible everywhere in the program.
+->All functions share one single copy->Any function can change it, and the change is visible everywhere.
+->Lifetime lasts for the entire program.
+
+Static Variable – Key Points
+->Can be inside a function or outside, but needs the keyword static.
+->Not accessible everywhere — scope is restricted (function or file).
+->Still exists for the entire program, just not visible outside its scope.
+->Keeps its value between function calls (if declared inside a function).
+->Used when you want persistence but don’t want global access.
+
+
+
+
 
 
