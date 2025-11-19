@@ -1,11 +1,13 @@
-//Functions is what take input and returns results[Function has its declaration and function definition and function calling in main function/any other function]. 
-//In function another concept is passing arguments where parameter are the values we give and return value returns the result and it is ad arguments are the values 
+GO TO PREVIEW 
+
+Functions is what take input and returns results[Function has its declaration and function definition and function calling in main function/any other function]. 
+In function another concept is passing arguments where parameter are the values we give and return value returns the result and it is ad arguments are the values 
 //a) void printhi(); - here void means that this function will only performs its definition and it will not return any value 
 //b) void printable(int n);- here the function take an table number from n and the function will print the table
 //c) int sum(int a,int b);- were here the int means it will return integer value and performs sum operation on int a&b that is a+b and then return its value
 
 #include <stdio.h>
-//function declration: to tell that the compiler exists
+Function declration: to tell that the compiler exists
 int sum(int a,int b);
 int main() {
     int a,b;
@@ -21,7 +23,7 @@ int main() {
     printf("sum:%d",s);
     return 0;
 }
-//function definition: Now the compiler knows that this function exists and has what work does this function have to do
+Function definition: Now the compiler knows that this function exists and has what work does this function have to do
 int sum(int t,int h){
     return t+h;// here if we give 12 still the compiler doest consider it as a error because all the function wants is to return an int value, 
               //where 12 is an interger value so it goes to printf statments and gets executed line by line and when comes to function call it returns the 12 value that's it. But when you give some 4.55 value then an error value occurs.
@@ -46,7 +48,7 @@ void printable(int n)//this is just formal parament the actual value comes form 
     }
 }
 
-//  TO PRINT AREA OF A CORCLE,SQUARE, RECTANGLE:-
+TO PRINT AREA OF A CORCLE,SQUARE, RECTANGLE:-
 #include <stdio.h>
 
 float areasquare(float side);
@@ -80,7 +82,7 @@ float arearectangle(float length,float breadth){
 return length*breadth;
 }
 
-// SCOPE [ CONCEPTS OF GLOBAL AND LOCAL VARIABLE]:-  Global = shared everywhere; Static = lives forever but seen only in limited places.
+SCOPE [ CONCEPTS OF GLOBAL AND LOCAL VARIABLE]:-  Global = shared everywhere; Static = lives forever but seen only in limited places.
 Global Variable – Key Points
 ->Declared outside all functions. 
 -> Accessible everywhere in the program.
@@ -94,11 +96,21 @@ Static Variable – Key Points
 ->Keeps its value between function calls (if declared inside a function).
 ->Used when you want persistence but don’t want global access.
 
-//RECURSION:- It can be defined when a function calls itself, to make the big program into smaller parts and the smaller part's result 
-//will be given to the called function to process it more to get the result 
+RECURSION:- It can be defined when a function calls itself, to make the big program into smaller parts and the smaller part's result 
+will be given to the called function to process it more to get the result 
 -> whatever iteraiton can do , recursion can do the same work 
 ->disadvantage we can say how iteration has infinite loop(when we give true in do while loop it will crete and infinite loop and memory is fully used up) 
-and recursion has stack overflow(means memory is used up, when there is no given base condition given )
+and recursion has stack overflow(means memory is used up, when there is no given base condition given ) 
+-> program for factorial for better understanding with explaination.
+exaplaination:- <img width="1280" height="747" alt="image" src="https://github.com/user-attachments/assets/7499b71e-f1cd-4716-87b1-85beca118217" />
+
+
+<img width="557" height="457" alt="image" src="https://github.com/user-attachments/assets/ac3fa558-7c76-4e17-871d-ed8c62c9a09e" />  this is factorial program written using recursion so here the base case is [if(n==1)] and we can write it like this also 
+<img width="485" height="411" alt="image" src="https://github.com/user-attachments/assets/a8ffda22-44ea-469b-bb66-4c5142c5d6af" /> and for both them the output will look like this <img width="228" height="51" alt="image" src="https://github.com/user-attachments/assets/6319f549-8169-4bd4-84fe-1e6898772838" /> but if we dont give a base case like this [if(n==1)] then the program and output will look like this <img width="569" height="445" alt="image" src="https://github.com/user-attachments/assets/3f6b733a-7266-4a80-93ba-ffafc1fa533c" /> and the output will be infinte like this and crash the program the output will be like this <img width="275" height="490" alt="image" src="https://github.com/user-attachments/assets/217de09f-6791-4bf6-b32c-236aed956469" />
+
+
+
+
 
 
 
