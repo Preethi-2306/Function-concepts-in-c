@@ -94,7 +94,11 @@ Static Variable – Key Points
 ->Keeps its value between function calls (if declared inside a function).
 ->Used when you want persistence but don’t want global access.
 
-
+//RECURSION:- It can be defined when a function calls itself, to make the big program into smaller parts and the smaller part's result 
+//will be given to the called function to process it more to get the result 
+-> whatever iteraiton can do , recursion can do the same work 
+->disadvantage we can say how iteration has infinite loop(when we give true in do while loop it will crete and infinite loop and memory is fully used up) 
+and recursion has stack overflow(means memory is used up, when there is no given base condition given )
 
 
 
