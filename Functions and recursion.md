@@ -5,6 +5,9 @@ In function another concept is passing arguments where parameter are the values 
 //a) void printhi(); - here void means that this function will only performs its definition and it will not return any value 
 //b) void printable(int n);- here the function take an table number from n and the function will print the table
 //c) int sum(int a,int b);- were here the int means it will return integer value and performs sum operation on int a&b that is a+b and then return its value
+IMPORTANT -> Return type decides what the function must return.
+->If you don’t want to return anything (use void)
+->If you declare any other type , you MUST return that type.(char,int, float)
 
 #include <stdio.h>
 Function declration: to tell that the compiler exists
